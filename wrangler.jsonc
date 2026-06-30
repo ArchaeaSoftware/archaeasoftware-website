@@ -1,0 +1,10 @@
+{
+  // Static-assets-only Worker for archaeasoftware.com.
+  // No Worker script (no "main") — Cloudflare serves the files in "directory" directly.
+  // Docs: https://developers.cloudflare.com/workers/static-assets/
+  "name": "archaeasoftware",
+  "compatibility_date": "2026-06-01",
+  "assets": {
+    "directory": "./"
+  }
+}

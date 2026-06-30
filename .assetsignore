@@ -1,0 +1,7 @@
+# Files excluded from the published static assets (not served).
+# _headers and _redirects are intentionally NOT listed — Workers consumes them.
+wrangler.jsonc
+.assetsignore
+README.md
+.gitignore
+scripts/
